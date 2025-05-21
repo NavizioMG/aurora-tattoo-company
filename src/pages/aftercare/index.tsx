@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -61,8 +60,8 @@ const AftercareGuide: React.FC = () => {
       id: 'recommended',
       title: 'Recommended Products',
       content: [
-        'Fragrance-free, antibacterial soap (Dr. Bronner's, Dove Sensitive)',
-        'Aftercare ointment (A&D ointment, Aquaphor, or our studio's special blend)',
+        "Fragrance-free, antibacterial soap (Dr. Bronner's, Dove Sensitive)",
+        "Aftercare ointment (A&D ointment, Aquaphor, or our studio's special blend)",
         'Fragrance-free, alcohol-free moisturizer after the first week',
         'SPF 30+ broad-spectrum sunscreen (after fully healed)',
       ],
@@ -79,6 +78,7 @@ const AftercareGuide: React.FC = () => {
     },
   ];
 
+  
   return (
     <div className="flex flex-col min-h-screen bg-black text-white">
       <Navbar />
